@@ -1,0 +1,196 @@
+@import "fonts.css";
+
+html {
+  font-size: 62.5%; /* font-size 1em = 10px */
+}
+
+body {
+  margin: 0;
+  background-color: #FFFFFF;
+  font-family: Open Sans, sans-serif;
+  box-sizing: border-box;
+}
+
+
+header {
+  background: #151537 url("../img/header-320.jpg") no-repeat center;
+  background-size: cover;
+  width: 100%;
+  height: 535px;
+  color: #ffffff;
+  text-transform: uppercase;
+  padding-top: 3.3rem;
+  /*padding-bottom: 8rem;*/
+}
+
+.logo {
+  display: block;
+  margin: 0 auto;
+  width: 13.5rem;
+  height: 3.5rem;
+}
+
+.logo svg {
+  stroke: #ffffff;
+  fill: #ffffff;
+}
+
+header h1 {
+  margin-left: 1.9rem;
+  margin-top: 12.8rem;
+  margin-bottom: 1.4rem;
+  font-size: 3rem;
+
+}
+
+header h2 {
+  margin-top: 0;
+  margin-left: 6.5rem;
+  margin-bottom: 8.7rem;
+  font-size: 2.9rem;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
+}
+
+header .app-btn {
+  font-size: 0.8rem;
+  margin-top: 1.5rem;
+  margin-left: 2rem;
+  padding: 0.5rem 8.2rem;
+  color: #ffffff;
+  text-transform: uppercase;
+  text-align: left;
+  background-color: #5e42b0;
+  display: flex;
+  align-items: center;
+  width: calc(100% - 4rem);
+  height: 3.5rem;
+  border: none;
+  border-radius: 15px;
+  /*transition: all 0.5s ease-in-out;*/
+}
+
+header .app-btn .app-btn_icon {
+  /*font-size: 3rem;*/
+  width: 2.3rem;
+  margin-right: 0.7rem;
+  display: inline-block;
+  fill: #ffffff;
+}
+
+header .app-btn .app-btn_store {
+  font-weight: 600;
+  display: block;
+}
+
+header .app-btn_text {
+  white-space: nowrap;
+  justify-content: center;
+}
+
+header .app-btn:hover {
+  cursor: pointer;
+  background-color: #501be9;
+  transition: none;
+}
+
+.section {
+}
+
+.section>div {
+  padding-left: 1rem;
+  padding-bottom: 3.5rem;
+}
+
+.section_white {
+  background: white;
+}
+
+.section_gray {
+  background: #f5f4f9;
+  padding-top: 3.5rem;
+}
+
+.section_fafafa {
+  background: #fafafa;
+  padding-top: 6.3rem;
+}
+
+.section>div.section_purple {
+  background: #5e42b0;
+  padding-top: 3.2rem;
+  padding-bottom: 2rem;
+}
+
+.section_purple_dark {
+  background: #090a36;
+  padding-top: 3rem;
+  color: #ffffff;
+}
+
+.section h2 {
+  color: #e7e7e7;
+  font-size: 5.5rem;
+  text-transform: uppercase;
+  margin-top: 0.5rem;
+  margin-left: 1.5rem;
+  margin-bottom: 0;
+  letter-spacing: -0.05em;
+}
+
+.section img {
+  margin: 0 auto;
+  display: block;
+  padding-left: 1rem;
+}
+
+.section>div h3 {
+  margin-top: 1.5rem;
+  margin-left: 1rem;
+  margin-bottom: 1.7rem;
+  letter-spacing: 0.05em;
+  font-size: 2.8rem;
+  font-weight: bold;
+  color: #c1c1c1;
+  text-transform: uppercase;
+}
+
+.section>div h3 span {
+  font-size: 1.4rem;
+  color: #000000;
+  border-bottom: 4px solid #5e42b0;
+  vertical-align: super;
+  position: relative;
+  top: 0.4rem;
+  margin-right: 0.5rem;
+}
+
+.section>div.section_purple h3 span {
+  border-bottom-color: white;
+}
+
+.section>div.section_purple_dark h3 span {
+  border-bottom-color: white;
+  color: #8761e0;
+}
+
+.section>div p {
+  color: #000;
+  font-size: 1.5rem;
+  margin-left: 1rem;
+  letter-spacing: 0.075rem;
+  padding-right: 1.5rem;
+  line-height: 1.2em;
+}
+
+.section>div.section_purple_dark p {
+  color: white;
+}
+
+
+.section_basketball img {
+  padding-left: 0;
+  position: relative;
+  left: -0.5rem;
+  margin-bottom: -3rem;
+}
