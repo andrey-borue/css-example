@@ -13,21 +13,20 @@ body {
 
 
 header {
-  background: #151537 url("../img/header-320.jpg") no-repeat center;
+  background: #151537 url("../img/header-320.jpg") no-repeat top;
   background-size: cover;
   width: 100%;
-  height: 535px;
   color: #ffffff;
   text-transform: uppercase;
-  padding-top: 3.3rem;
-  /*padding-bottom: 8rem;*/
+  padding: 3.3rem 6vw 5rem;
+  box-sizing: border-box;
 }
+
 
 .logo {
   display: block;
   margin: 0 auto;
   width: 13.5rem;
-  height: 3.5rem;
 }
 
 .logo svg {
@@ -36,8 +35,7 @@ header {
 }
 
 header h1 {
-  margin-left: 1.9rem;
-  margin-top: 12.8rem;
+  margin-top: 12rem;
   margin-bottom: 1.4rem;
   font-size: 3rem;
 
@@ -45,54 +43,120 @@ header h1 {
 
 header h2 {
   margin-top: 0;
-  margin-left: 6.5rem;
+  margin-left: 4.6rem;
   margin-bottom: 8.7rem;
   font-size: 2.9rem;
   line-height: 1.1;
   letter-spacing: 0.02em;
 }
 
-.app-btn {
+
+aside.button button {
   font-size: 0.8rem;
   margin-top: 1.5rem;
-  margin-left: 2rem;
-  padding: 0.5rem 8.2rem;
+  padding-top: 0.7rem;
+  padding-bottom: 0.7rem;
   color: #ffffff;
   text-transform: uppercase;
   text-align: left;
   background-color: #5e42b0;
   display: flex;
   align-items: center;
-  width: calc(100% - 4rem);
-  height: 3.5rem;
+  width: 100%;
+  /*height: 3.5rem;*/
   border: none;
   border-radius: 15px;
+  justify-content: center;
   /*transition: all 0.5s ease-in-out;*/
 }
 
-.app-btn .app-btn_icon {
+
+aside.button button>svg {
   /*font-size: 3rem;*/
   width: 2.3rem;
   margin-right: 0.7rem;
-  display: inline-block;
   fill: #ffffff;
 }
 
-.app-btn .app-btn_store {
-  font-weight: 600;
+
+aside.button button>span {
+  width: 9rem;
+  white-space: nowrap;
+  /*justify-content: center;*/
+}
+
+
+aside.button>button>span>strong {
+  font-weight: bold;
   display: block;
 }
 
-.app-btn_text {
-  white-space: nowrap;
-  justify-content: center;
-}
-
-.app-btn:hover {
+aside.button button:hover {
   cursor: pointer;
   background-color: #501be9;
   transition: none;
 }
+
+@media (min-width: 641px) and (max-width: 959px) {
+  header {
+    background-image: url("../img/header-768.jpg");
+    padding-top: 4rem;
+    padding-left: 7vw;
+    padding-right: 7vw;
+  }
+
+  header h1 {
+    font-size: 7rem;
+    margin-top: 16rem;
+    margin-bottom: 0;
+    margin-left: 4vw;
+    line-height: 1.2em;
+  }
+
+  header h2 {
+    font-size: 6.4rem;
+    margin-left: 14rem;
+    margin-bottom: 28rem;
+    line-height: 1.2;
+    letter-spacing: 0.05em;
+
+  }
+
+  .logo {
+    width: 20rem;
+  }
+
+  aside.button {
+    display: flex;
+  }
+
+  aside.button button {
+    margin-left: 1vw;
+    margin-right: 1vw;
+    font-size: 1.5rem;
+    border-radius: 45px;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+
+    /*justify-content: start;*/
+  }
+
+  aside.button button>span {
+    width: 19rem;
+  }
+
+
+  aside.button button>svg {
+    width: 4.3rem;
+  }
+
+  aside.button>button>span>strong {
+
+  }
+
+}
+
+
 
 section>div {
   padding-left: 1rem;
