@@ -52,7 +52,7 @@ header h2 {
   letter-spacing: 0.02em;
 }
 
-header .app-btn {
+.app-btn {
   font-size: 0.8rem;
   margin-top: 1.5rem;
   margin-left: 2rem;
@@ -70,7 +70,7 @@ header .app-btn {
   /*transition: all 0.5s ease-in-out;*/
 }
 
-header .app-btn .app-btn_icon {
+.app-btn .app-btn_icon {
   /*font-size: 3rem;*/
   width: 2.3rem;
   margin-right: 0.7rem;
@@ -78,57 +78,55 @@ header .app-btn .app-btn_icon {
   fill: #ffffff;
 }
 
-header .app-btn .app-btn_store {
+.app-btn .app-btn_store {
   font-weight: 600;
   display: block;
 }
 
-header .app-btn_text {
+.app-btn_text {
   white-space: nowrap;
   justify-content: center;
 }
 
-header .app-btn:hover {
+.app-btn:hover {
   cursor: pointer;
   background-color: #501be9;
   transition: none;
 }
 
-.section {
-}
-
-.section>div {
+section>div {
   padding-left: 1rem;
   padding-bottom: 3.5rem;
 }
 
-.section_white {
+section>div.section_white {
   background: white;
 }
 
-.section_gray {
+section>div.section_gray {
   background: #f5f4f9;
   padding-top: 3.5rem;
 }
 
-.section_fafafa {
+section>div.section_fafafa {
   background: #fafafa;
   padding-top: 6.3rem;
 }
 
-.section>div.section_purple {
+section>div.section_purple {
   background: #5e42b0;
   padding-top: 3.2rem;
   padding-bottom: 2rem;
 }
 
-.section_purple_dark {
+section>div.section_purple_dark {
   background: #090a36;
   padding-top: 3rem;
+  padding-bottom: 3.8rem;
   color: #ffffff;
 }
 
-.section h2 {
+section h2 {
   color: #e7e7e7;
   font-size: 5.5rem;
   text-transform: uppercase;
@@ -138,13 +136,13 @@ header .app-btn:hover {
   letter-spacing: -0.05em;
 }
 
-.section img {
+section img {
   margin: 0 auto;
   display: block;
   padding-left: 1rem;
 }
 
-.section>div h3 {
+section>div h3 {
   margin-top: 1.5rem;
   margin-left: 1rem;
   margin-bottom: 1.7rem;
@@ -155,7 +153,7 @@ header .app-btn:hover {
   text-transform: uppercase;
 }
 
-.section>div h3 span {
+section>div h3 span {
   font-size: 1.4rem;
   color: #000000;
   border-bottom: 4px solid #5e42b0;
@@ -165,16 +163,16 @@ header .app-btn:hover {
   margin-right: 0.5rem;
 }
 
-.section>div.section_purple h3 span {
+section>div.section_purple h3 span {
   border-bottom-color: white;
 }
 
-.section>div.section_purple_dark h3 span {
+section>div.section_purple_dark h3 span {
   border-bottom-color: white;
   color: #8761e0;
 }
 
-.section>div p {
+section>div p {
   color: #000;
   font-size: 1.5rem;
   margin-left: 1rem;
@@ -183,14 +181,111 @@ header .app-btn:hover {
   line-height: 1.2em;
 }
 
-.section>div.section_purple_dark p {
+section>div.section_purple_dark p {
   color: white;
 }
 
 
-.section_basketball img {
+section.section_basketball img {
   padding-left: 0;
   position: relative;
   left: -0.5rem;
   margin-bottom: -3rem;
+}
+
+article>aside {
+  display: block;
+  position: relative;
+  background: #5e3db3;
+  width: 7rem;
+  height: 7rem;
+  top: -6rem;
+  left: 2rem;
+  color: white;
+  text-align: center;
+  box-sizing: border-box;
+  padding-top: 2rem;
+  margin-bottom: -6rem;
+}
+
+article>aside>span {
+  font-size: 1.4rem;
+  border-bottom: 4px solid #8e79ca;
+}
+
+article>div {
+  margin-left: 2rem;
+  margin-bottom: 7.8rem;
+}
+
+article>div>h2 {
+  color: #e7e7e7;
+  font-size: 2.8rem;
+  text-transform: uppercase;
+  margin-top: 1rem;
+  letter-spacing: 0.075rem;
+  margin-bottom: 1.3rem;
+
+}
+
+article>div>p {
+  font-size: 1.6rem;
+  margin-top: 0;
+  letter-spacing: 0.08rem;
+  padding-right: 2rem;
+  line-height: 1.3em;
+
+}
+
+footer {
+  background: #151537 url("../img/footer-320.jpg") no-repeat center;
+  background-size: cover;
+  /*width: 100%;*/
+  /*height: 568px;*/
+  color: #ffffff;
+  text-transform: uppercase;
+  padding-top: 10rem;
+  /*padding-right: 6.25vw;*/
+  padding-bottom: 0.5rem;
+  /*padding-left: 6.25vw;*/
+}
+
+footer .logo_footer {
+  box-sizing: border-box;
+  width: 7.2rem;
+  height: 7.2rem;
+  margin: 0 auto;
+  padding: 1.4rem 0.7rem;
+  background-color: #5e42b0;
+  border-radius: 15px;
+  transition: all 0.5s ease-in-out;
+}
+
+footer .logo_footer svg {
+  height: 4.5rem;
+  width: 5.5rem;
+}
+
+footer h2 {
+  margin-top: 5rem;
+  margin-left: 1.9rem;
+  font-size: 3.2rem;
+  letter-spacing: 0.1rem;
+  margin-bottom: 0;
+  line-height: 4rem;
+
+}
+
+footer h3 {
+  margin-bottom: 7rem;
+  margin-top: 0;
+  margin-left: 1.9rem;
+  font-size: 1.4rem;
+  color: #9b8ec1;
+  line-height: 2.5rem;
+  letter-spacing: 0.05rem;
+}
+
+footer .footer_logo {
+  margin-top: 8.5rem;
 }
