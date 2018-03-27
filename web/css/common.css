@@ -13,12 +13,11 @@ body {
 
 
 header {
-  background: #151537 url("../img/header-320.jpg") no-repeat top;
+  background: #151537 no-repeat top;
   background-size: cover;
   width: 100%;
   color: #ffffff;
   text-transform: uppercase;
-  padding: 3.3rem 6vw 5rem;
   box-sizing: border-box;
 }
 
@@ -26,7 +25,6 @@ header {
 .logo {
   display: block;
   margin: 0 auto;
-  width: 13.5rem;
 }
 
 .logo svg {
@@ -35,27 +33,18 @@ header {
 }
 
 header h1 {
-  margin-top: 12rem;
-  margin-bottom: 1.4rem;
-  font-size: 3rem;
-
+  /*margin-top: 12rem;*/
+  /*margin-bottom: 1.4rem;*/
+  /*font-size: 3rem;*/
 }
 
 header h2 {
   margin-top: 0;
-  margin-left: 4.6rem;
-  margin-bottom: 8.7rem;
-  font-size: 2.9rem;
-  line-height: 1.1;
-  letter-spacing: 0.02em;
 }
 
 
 aside.button button {
-  font-size: 0.8rem;
   margin-top: 1.5rem;
-  padding-top: 0.7rem;
-  padding-bottom: 0.7rem;
   color: #ffffff;
   text-transform: uppercase;
   text-align: left;
@@ -63,26 +52,19 @@ aside.button button {
   display: flex;
   align-items: center;
   width: 100%;
-  /*height: 3.5rem;*/
   border: none;
-  border-radius: 15px;
   justify-content: center;
-  /*transition: all 0.5s ease-in-out;*/
 }
 
 
 aside.button button>svg {
-  /*font-size: 3rem;*/
-  width: 2.3rem;
   margin-right: 0.7rem;
   fill: #ffffff;
 }
 
 
 aside.button button>span {
-  width: 9rem;
   white-space: nowrap;
-  /*justify-content: center;*/
 }
 
 
@@ -97,65 +79,8 @@ aside.button button:hover {
   transition: none;
 }
 
-@media (min-width: 641px) and (max-width: 959px) {
-  header {
-    background-image: url("../img/header-768.jpg");
-    padding-top: 4rem;
-    padding-left: 7vw;
-    padding-right: 7vw;
-  }
 
-  header h1 {
-    font-size: 7rem;
-    margin-top: 16rem;
-    margin-bottom: 0;
-    margin-left: 4vw;
-    line-height: 1.2em;
-  }
-
-  header h2 {
-    font-size: 6.4rem;
-    margin-left: 14rem;
-    margin-bottom: 28rem;
-    line-height: 1.2;
-    letter-spacing: 0.05em;
-
-  }
-
-  .logo {
-    width: 20rem;
-  }
-
-  aside.button {
-    display: flex;
-  }
-
-  aside.button button {
-    margin-left: 1vw;
-    margin-right: 1vw;
-    font-size: 1.5rem;
-    border-radius: 45px;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-
-    /*justify-content: start;*/
-  }
-
-  aside.button button>span {
-    width: 19rem;
-  }
-
-
-  aside.button button>svg {
-    width: 4.3rem;
-  }
-
-  aside.button>button>span>strong {
-
-  }
-
-}
-
+/** *** CONTENT *** **/
 
 
 section>div {
@@ -174,7 +99,7 @@ section>div.section_gray {
 
 section>div.section_fafafa {
   background: #fafafa;
-  padding-top: 6.3rem;
+  padding-top: 3.3rem;
 }
 
 section>div.section_purple {
@@ -192,33 +117,19 @@ section>div.section_purple_dark {
 
 section h2 {
   color: #e7e7e7;
-  font-size: 5.5rem;
   text-transform: uppercase;
-  margin-top: 0.5rem;
-  margin-left: 1.5rem;
-  margin-bottom: 0;
-  letter-spacing: -0.05em;
-}
-
-section img {
-  margin: 0 auto;
-  display: block;
-  padding-left: 1rem;
 }
 
 section>div h3 {
   margin-top: 1.5rem;
-  margin-left: 1rem;
   margin-bottom: 1.7rem;
   letter-spacing: 0.05em;
-  font-size: 2.8rem;
   font-weight: bold;
   color: #c1c1c1;
   text-transform: uppercase;
 }
 
 section>div h3 span {
-  font-size: 1.4rem;
   color: #000000;
   border-bottom: 4px solid #5e42b0;
   vertical-align: super;
@@ -238,7 +149,6 @@ section>div.section_purple_dark h3 span {
 
 section>div p {
   color: #000;
-  font-size: 1.5rem;
   margin-left: 1rem;
   letter-spacing: 0.075rem;
   padding-right: 1.5rem;
@@ -250,12 +160,7 @@ section>div.section_purple_dark p {
 }
 
 
-section.section_basketball img {
-  padding-left: 0;
-  position: relative;
-  left: -0.5rem;
-  margin-bottom: -3rem;
-}
+/** article **/
 
 article>aside {
   display: block;

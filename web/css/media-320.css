@@ -1,0 +1,89 @@
+@media (max-width: 640px) {
+
+  header {
+    background-image: url("../img/header-320.jpg");
+    padding: 3.3rem 6vw 8rem;
+  }
+
+  header h1 {
+    font-size: 3rem;
+    margin-top: 12rem;
+    margin-bottom: 1.4rem;
+    margin-left: 0;
+    line-height: 1.3em;
+  }
+
+  header h2 {
+    font-size: 2.9rem;
+    margin-left: 4.6rem;
+    margin-bottom: 8.9rem;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+  }
+
+  .logo {
+    width: 13.5rem;
+  }
+
+  aside.button {
+
+  }
+
+  aside.button button {
+    margin-left: 1vw;
+    margin-right: 1vw;
+    font-size: 0.8rem;
+    border-radius: 15px;
+    padding-top: 0.7rem;
+    padding-bottom: 0.7rem;
+  }
+
+  aside.button button > span {
+    width: 9rem;
+  }
+
+  aside.button button > svg {
+    width: 2.3rem;
+  }
+
+  aside.button>button>span>strong {
+
+  }
+
+  section {
+
+  }
+
+  section img {
+    margin: 0 auto;
+    display: block;
+  }
+
+  section h2 {
+    font-size: 5.5rem;
+    margin-top: 0.5rem;
+    margin-left: 1.5rem;
+    margin-bottom: 0;
+    letter-spacing: -0.05em;
+  }
+
+  section>div p {
+    font-size: 1.5rem;
+  }
+
+  section>div h3 span {
+    font-size: 1.4rem;
+  }
+
+  section>div h3 {
+    font-size: 2.8rem;
+    margin-left: 1rem;
+  }
+
+  section.section_basketball picture {
+    position: relative;
+    left: -0.5rem;
+    top: 0.5rem;
+  }
+
+}

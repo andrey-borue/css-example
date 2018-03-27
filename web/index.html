@@ -4,6 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./css/common.css">
+  <link rel="stylesheet" href="./css/media-320.css">
+  <link rel="stylesheet" href="./css/media-768.css">
   <title>Title</title>
 </head>
 <body>
@@ -51,7 +53,11 @@
 <main>
   <section>
     <h2>athlets</h2>
-    <img src="img/rugby-player.png" alt="Rugby player">
+    <picture>
+      <source srcset="img/rugby-player.png" media="(max-width: 640px)">
+      <source srcset="img/rugby-player-768.png" media="(min-width: 641px) and (max-width: 959px)">
+      <img src="img/rugby-player.png" alt="Rugby player">
+    </picture>
     <div class="section_white">
       <h3><span>01</span>Connection</h3>
       <p>Connect with coaches directly, you can ping coaches to view profile.</p>
@@ -69,7 +75,11 @@
 
   <section class="section_basketball">
     <h2>players</h2>
-    <img src="img/basketball-player.png" alt="Basketball player">
+    <picture>
+      <source srcset="img/basketball-player.png" media="(max-width: 640px)">
+      <source srcset="img/basketball-player-768.png" media="(min-width: 641px) and (max-width: 959px)">
+      <img src="img/basketball-player.png" alt="Basketball player">
+    </picture>
     <div class="section_fafafa">
       <h3><span>01</span>Connection</h3>
       <p>Connect with talented athlete directly, you can watch their skills.</p>
