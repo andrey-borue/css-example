@@ -5,12 +5,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./css/common.css">
   <link rel="stylesheet" href="./css/media-320.css">
-  <link rel="stylesheet" href="./css/media-768.css">
+  <link rel="stylesheet" href="./css/media-641-959.css">
+  <link rel="stylesheet" href="./css/media-960-1920.css">
   <title>Title</title>
 </head>
 <body>
 <header class="header">
-  <a class="logo">
+  <a class="logo" href="#">
     <svg viewBox="0 0 972 264" xmlns="http://www.w3.org/2000/svg">
       <g fill="none" fill-rule="evenodd">
         <g stroke-linecap="round" stroke-linejoin="round">
@@ -60,7 +61,8 @@
     </picture>
     <div class="section_white">
       <h3><span>01</span>Connection</h3>
-      <p>Connect with coaches directly, you can ping coaches to view profile.</p>
+      <!--<p>Connect with coaches directly, you can ping coaches to view profile.</p>-->
+      <p>Connect with coaches directly, you can ping</p>
     </div>
     <div class="section_gray">
       <h3><span>02</span>Collaboration</h3>
@@ -96,7 +98,11 @@
 
 
   <article>
-    <img src="img/be-active.jpg" alt="Be active">
+    <picture>
+      <source srcset="img/be-active.jpg" media="(max-width: 320px)">
+      <source srcset="img/be-active-768.jpg" media="(min-width: 321px) and (max-width: 959px)">
+      <img src="img/be-active.jpg" alt="Be active">
+    </picture>
     <aside><span>01</span></aside>
     <div>
       <h2>be active</h2>
@@ -105,7 +111,11 @@
   </article>
 
   <article>
-    <img src="img/find-contact.jpg" alt="Find contact">
+    <picture>
+      <source srcset="img/find-contact.jpg" media="(max-width: 320px)">
+      <source srcset="img/find-contact-768.jpg" media="(min-width: 321px) and (max-width: 959px)">
+      <img src="img/find-contact.jpg" alt="Find contact">
+    </picture>
     <aside><span>02</span></aside>
     <div>
       <h2>find contact</h2>
@@ -114,7 +124,11 @@
   </article>
 
   <article>
-    <img src="img/work-it.jpg" alt="Work it">
+    <picture>
+      <source srcset="img/work-it.jpg" media="(max-width: 320px)">
+      <source srcset="img/work-it-768.jpg" media="(min-width: 321px) and (max-width: 959px)">
+      <img src="img/work-it.jpg" alt="Work it">
+    </picture>
     <aside><span>03</span></aside>
     <div>
       <h2>work it</h2>
@@ -124,7 +138,7 @@
 </main>
 
 <footer>
-  <a href="/" class="logo logo_footer">
+  <a href="#" class="logo logo_footer">
     <svg viewBox="0 0 288 264" xmlns="http://www.w3.org/2000/svg">
       <g fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
         <path stroke-width="25" d="M275 132L103 251V13z"></path>
@@ -139,31 +153,29 @@
   <h2>download app</h2>
   <h3>Show everyone what you can do!</h3>
 
-  <button class="app-btn app-btn_ios">
-    <span class="app-btn_icon">
+
+  <aside class="button">
+    <button>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 170 170">
         <path d="M150.37 130.25c-2.45 5.66-5.35 10.87-8.71 15.66-4.58 6.53-8.33 11.05-11.22 13.56-4.48 4.12-9.28 6.23-14.42 6.35-3.69 0-8.14-1.05-13.32-3.18-5.197-2.12-9.973-3.17-14.34-3.17-4.58 0-9.492 1.05-14.746 3.17-5.262 2.13-9.5 3.24-12.742 3.35-4.93.21-9.842-1.96-14.746-6.52-3.13-2.73-7.045-7.41-11.735-14.04-5.03-7.08-9.168-15.29-12.41-24.65-3.47-10.11-5.21-19.9-5.21-29.378 0-10.857 2.346-20.22 7.045-28.068C27.508 57.03 32.42 52.06 38.57 48.41s12.793-5.51 19.948-5.63c3.915 0 9.05 1.21 15.43 3.59 6.36 2.39 10.446 3.6 12.237 3.6 1.34 0 5.877-1.416 13.57-4.24 7.275-2.617 13.415-3.7 18.445-3.274 13.63 1.1 23.87 6.473 30.68 16.153-12.19 7.385-18.22 17.73-18.1 31 .11 10.338 3.86 18.94 11.23 25.77 3.34 3.17 7.07 5.62 11.22 7.36-.9 2.61-1.85 5.11-2.86 7.51zM119.11 7.24c0 8.102-2.96 15.667-8.86 22.67-7.12 8.323-15.732 13.133-25.07 12.374-.12-.972-.19-1.995-.19-3.07 0-7.778 3.387-16.102 9.4-22.908 3.002-3.446 6.82-6.31 11.45-8.597 4.62-2.253 8.99-3.498 13.1-3.71.12 1.082.17 2.165.17 3.24z"></path>
       </svg>
-    </span>
-    <span class="app-btn_text">
-        download on the
-        <span class="app-btn_store">app store</span>
+      <span>
+          download on the
+          <strong>app store</strong>
       </span>
-  </button>
+    </button>
 
 
-
-  <button class="app-btn download-btn_android">
-    <span class="app-btn_icon">
+    <button>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 505.499 505.499">
         <path d="M471.497 234.466l-92.082-53.135-75.733 73.208 69.215 66.907 98.6-56.91c5.43-3.133 8.677-8.756 8.677-15.03 0-6.275-3.245-11.898-8.677-15.04zM363.785 172.3l-101.332-58.497L40.375 0l250.828 242.47M44.063 505.5l218.77-120.512 94.435-54.515-66.065-63.87M25.56 9.815l-.236 489.67L278.72 254.534"></path>
       </svg>
-    </span>
-    <span class="app-btn_text">
-        get it on
-        <span class="app-btn_store">google play</span>
-    </span>
-  </button>
+      <span>
+          get it on
+          <strong>google play</strong>
+      </span>
+    </button>
+  </aside>
 
 
   <a href="/" class="logo footer_logo">

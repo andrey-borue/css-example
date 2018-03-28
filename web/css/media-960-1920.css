@@ -1,0 +1,198 @@
+@media (min-width: 960px) and (max-width: 1920px) {
+
+  header {
+    background-image: url("../img/header-1920.jpg");
+    padding: 2rem 5.4vw 5rem;
+  }
+
+  header h1 {
+    font-size: 5rem;
+    margin-top: 13.5rem;
+    margin-bottom: 0;
+    margin-left: 4vw;
+    line-height: 1.2em;
+  }
+
+  header h2 {
+    font-size: 4rem;
+    margin-left: 27rem;
+    margin-bottom: 10rem;
+    line-height: 0.6;
+    letter-spacing: 0.13em;
+  }
+
+  .logo {
+    width: 10rem;
+  }
+
+  aside.button {
+    display: flex;
+    justify-content: center;
+  }
+
+  aside.button button {
+    flex-basis: 16rem;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    font-size: 0.8rem;
+    border-radius: 22px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  aside.button button>span {
+    /*width: 19rem;*/
+  }
+
+  aside.button button>svg {
+    width: 2.5rem;
+  }
+
+  aside.button>button>span>strong {
+
+  }
+
+  section {
+    position: relative;
+  }
+
+  section:nth-child(1) img {
+    position: absolute;
+    left: -500px;
+    margin-left: 42vw;
+    top: 9rem;
+  }
+
+  section:nth-child(1)>h2,
+  section:nth-child(1)>div {
+    padding-left: 37.5vw;
+  }
+
+  section>h2 {
+    font-size: 8rem;
+    letter-spacing: 0.01em;
+    padding-top: 5rem;
+    margin-top: 0.5rem;
+    margin-bottom: 2rem
+  }
+
+  section>div {
+    padding-bottom: 5.2rem;
+  }
+
+  section>div p {
+    font-size: 1.6rem;
+    line-height: 1.7em;
+  }
+
+  section>div h3 span {
+    font-size: 1.8rem;
+  }
+
+  section>div h3 {
+    font-size: 3.2rem;
+    line-height: 1.7em;
+    margin-bottom: 0;
+  }
+
+
+  section:nth-child(2) img {
+    position: absolute;
+    margin-left: 44vw;
+    top: 3rem;
+  }
+
+  section:nth-child(2)>h2,
+  section:nth-child(2)>div {
+    padding-right: 37.5vw;
+    padding-left: 3rem;
+  }
+
+
+  section.section_basketball picture {
+
+  }
+
+  section>div.section_gray {
+    padding-top: 0;
+    padding-bottom: 1.4rem;
+  }
+
+  section>div.section_purple {
+    margin-top: 0;
+    padding-bottom: 1.5rem;
+  }
+
+  section>div.section_fafafa {
+    padding-top: 0;
+  }
+
+  article>div{
+    margin-bottom: 9rem;
+  }
+
+  article>aside {
+    left: 3.5rem;
+    width: 11.5rem;
+    height: 11.5rem;
+    top: -8rem;
+    padding-top: 3rem;
+  }
+
+  article>aside>span {
+    font-size: 2.4rem;
+  }
+
+  article>div>h2 {
+    font-size: 7.8rem;
+    margin-bottom: 0.6rem;
+  }
+
+  article>div {
+    margin-left: 3rem;
+  }
+
+  article>div>p {
+    font-size: 2.6rem;
+    letter-spacing: 0.04rem;
+  }
+
+  article img {
+    width: 100%;
+  }
+
+  footer {
+    padding-top: 13rem;
+    padding-right: 3.25vw;
+    padding-left: 3.25vw;
+  }
+
+  footer h2 {
+    font-size: 10.9vw;
+    margin-top: 9rem;
+    letter-spacing: 0.14rem;
+  }
+
+  footer h3 {
+    font-size: 4.4vw;
+    padding-left: 4vw;
+    padding-right: 4vw;
+    margin-top: 3.7rem;
+    margin-bottom: 28rem;
+  }
+
+  footer .logo_footer {
+    border-radius: 34px;
+    width: 13.4rem;
+    height: 13.4rem;
+  }
+
+  footer .logo_footer svg {
+    width: 100%;
+    height: 100%;
+  }
+
+  footer .footer_logo {
+    margin-top: 4.5rem;
+  }
+}
