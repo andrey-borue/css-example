@@ -125,7 +125,7 @@
     padding-top: 0;
   }
 
-  article>div{
+  article>div.text{
     margin-bottom: 9rem;
   }
 
@@ -141,21 +141,21 @@
     font-size: 2.4rem;
   }
 
-  article>div>h2 {
+  article>div.text>h2 {
     font-size: 7.8rem;
     margin-bottom: 0.6rem;
   }
 
-  article>div {
+  article>div.text {
     margin-left: 3rem;
   }
 
-  article>div>p {
+  article>div.text>p {
     font-size: 2.6rem;
     letter-spacing: 0.04rem;
   }
 
-  article img {
+  article>div.img img {
     width: 100%;
   }
 

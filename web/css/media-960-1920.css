@@ -54,58 +54,67 @@
 
   section {
     position: relative;
+    overflow: hidden;
   }
 
   section:nth-child(1) img {
     position: absolute;
-    left: -500px;
-    margin-left: 42vw;
-    top: 9rem;
+    /*left: -500px;*/
+    margin-left: 15vw;
+    top: -1rem;
+    width: 35vw;
+    max-width: 678px;
   }
 
   section:nth-child(1)>h2,
   section:nth-child(1)>div {
-    padding-left: 37.5vw;
+    padding-left: 52.5vw;
   }
 
   section>h2 {
-    font-size: 8rem;
+    font-size: 4rem;
     letter-spacing: 0.01em;
-    padding-top: 5rem;
+    padding-top: 4rem;
     margin-top: 0.5rem;
-    margin-bottom: 2rem
+    margin-bottom: 3rem
   }
 
   section>div {
-    padding-bottom: 5.2rem;
+    padding-bottom: 1.8rem;
   }
 
   section>div p {
-    font-size: 1.6rem;
-    line-height: 1.7em;
+    padding-right: 10rem;
+    font-size: 1rem;
+    line-height: 1.6em;
+    margin-top: 0;
+    letter-spacing: 0.05rem;
   }
 
   section>div h3 span {
-    font-size: 1.8rem;
+    font-size: 1rem;
+    top: 0.1rem;
   }
 
   section>div h3 {
-    font-size: 3.2rem;
-    line-height: 1.7em;
-    margin-bottom: 0;
+    font-size: 1.8rem;
+    /*line-height: 1.7em;*/
+    margin-bottom: 0.5rem;
   }
 
 
   section:nth-child(2) img {
     position: absolute;
-    margin-left: 44vw;
-    top: 3rem;
+    margin-left: 42vw;
+    top: -2rem;
+    width: 52vw;
+    max-width: 991px;
   }
 
   section:nth-child(2)>h2,
   section:nth-child(2)>div {
     padding-right: 37.5vw;
-    padding-left: 3rem;
+    padding-left: 16rem;
   }
 
 
@@ -114,13 +123,33 @@
   }
 
   section>div.section_gray {
-    padding-top: 0;
-    padding-bottom: 1.4rem;
+    padding-top: 1.3rem;
+    padding-bottom: 1.3rem;
   }
 
   section>div.section_purple {
     margin-top: 0;
-    padding-bottom: 1.5rem;
+    padding-bottom: 3.5rem;
+    padding-top: 2.8rem;
+  }
+
+  article {
+    display: flex;
+    position: relative;
+  }
+
+  article:nth-child(2n) div.img {
+    order: 1;
+  }
+
+  article>div.text,
+  article>div.img {
+    flex: 1 1 50%;
+    margin: 0;
+  }
+
+  article>div.img img {
+    width: 100%;
   }
 
   section>div.section_fafafa {
@@ -128,38 +157,45 @@
   }
 
   article>div{
-    margin-bottom: 9rem;
+    /*margin-bottom: 9rem;*/
   }
 
   article>aside {
-    left: 3.5rem;
-    width: 11.5rem;
-    height: 11.5rem;
-    top: -8rem;
-    padding-top: 3rem;
+    position: absolute;
+    top: 10.4rem;
+    left: calc(50vw - 5.3rem);
+    width: 8.3rem;
+    height: 7.8rem;
+    padding-top: 2.7rem;
+
   }
 
   article>aside>span {
-    font-size: 2.4rem;
+    font-size: 1.3rem;
   }
 
-  article>div>h2 {
-    font-size: 7.8rem;
-    margin-bottom: 0.6rem;
+  article>div.text>h2 {
+    font-size: 3.8rem;
+    margin-bottom: 4rem;
   }
 
-  article>div {
-    margin-left: 3rem;
+  article>div.text {
+    margin-left: 0;
+    padding-left: 5rem;
+    padding-top: 11rem;
+    box-sizing: border-box;
   }
 
-  article>div>p {
-    font-size: 2.6rem;
-    letter-spacing: 0.04rem;
+  article>div.text>p {
+    font-size: 1.4rem;
+    letter-spacing: 0.001rem;
+    padding-right: 15rem;
+    line-height: 1.5rem;
   }
 
-  article img {
-    width: 100%;
-  }
+  /*article img {*/
+    /*width: 100%;*/
+  /*}*/
 
   footer {
     padding-top: 13rem;

@@ -185,12 +185,12 @@ article>aside>span {
   border-bottom: 4px solid #8e79ca;
 }
 
-article>div {
+article>div.text {
   margin-left: 2rem;
   margin-bottom: 7.8rem;
 }
 
-article>div>h2 {
+article>div.text>h2 {
   color: #e7e7e7;
   font-size: 2.8rem;
   text-transform: uppercase;
@@ -200,7 +200,7 @@ article>div>h2 {
 
 }
 
-article>div>p {
+article>div.text>p {
   font-size: 1.6rem;
   margin-top: 0;
   letter-spacing: 0.08rem;
