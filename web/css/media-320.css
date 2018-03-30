@@ -90,6 +90,10 @@
     width: 100%;
   }
 
+  footer {
+    background-image: url("../img/footer-320.jpg");
+  }
+
   footer h2 {
     font-size: 10vw;
   }

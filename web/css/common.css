@@ -4,6 +4,10 @@ html {
   font-size: 62.5%; /* font-size 1em = 10px */
 }
 
+img {
+  vertical-align:bottom;
+}
+
 body {
   margin: 0;
   background-color: #FFFFFF;
@@ -209,11 +213,11 @@ article>div.text>p {
 
 }
 
+/*** footer **/
+
 footer {
-  background: #151537 url("../img/footer-320.jpg") no-repeat center;
+  background: #151537 no-repeat center;
   background-size: cover;
-  /*width: 100%;*/
-  /*height: 568px;*/
   color: #ffffff;
   text-transform: uppercase;
   padding-top: 10rem;
