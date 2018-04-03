@@ -8,16 +8,16 @@
   header h1 {
     font-size: 9.4vw;
     margin-top: 12rem;
-    margin-bottom: 1.4rem;
+    margin-bottom: 8.9rem;
     margin-left: 0;
     line-height: 1.3em;
   }
 
-  header h2 {
+  header h1 span {
     font-size: 9vw;
     margin-left: 4.6rem;
-    margin-bottom: 8.9rem;
-    line-height: 1.1;
+    margin-top: 1.4rem;
+    line-height: 1.1em;
     letter-spacing: 0.02em;
   }
 
@@ -25,11 +25,7 @@
     width: 13.5rem;
   }
 
-  aside.button {
-
-  }
-
-  aside.button button {
+  div.button button {
     margin-left: 1vw;
     margin-right: 1vw;
     font-size: 0.8rem;
@@ -38,29 +34,26 @@
     padding-bottom: 0.7rem;
   }
 
-  aside.button button > span {
+  div.button button > span {
     width: 9rem;
   }
 
-  aside.button button > svg {
+  div.button button > svg {
     width: 2.3rem;
   }
 
-  aside.button>button>span>strong {
-
+  section.section_athlets>div {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
   }
 
-  section {
-
-  }
-
-  section img {
+  section.section_athlets img {
     margin: 0 auto;
     display: block;
 
   }
 
-  section h2 {
+  section.section_athlets h2 {
     font-size: 5.5rem;
     margin-top: 0.5rem;
     margin-left: 1.5rem;
@@ -68,25 +61,25 @@
     letter-spacing: -0.05em;
   }
 
-  section>div p {
+  section.section_athlets>div p {
     font-size: 1.5rem;
   }
 
-  section>div h3 span {
+  section.section_athlets>div h3 span {
     font-size: 1.4rem;
   }
 
-  section>div h3 {
+  section.section_athlets>div h3 {
     font-size: 2.8rem;
   }
 
-  section.section_basketball picture {
+  section.section_athlets_2 picture {
     position: relative;
     left: -0.5rem;
     top: 0.5rem;
   }
 
-  article img {
+  section.section_players img {
     width: 100%;
   }
 
@@ -96,10 +89,10 @@
 
   footer h2 {
     font-size: 10vw;
+    margin-bottom: 0.2em;
   }
 
   footer h3 {
     font-size: 4.3vw;
   }
-
 }

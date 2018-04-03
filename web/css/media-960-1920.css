@@ -8,15 +8,14 @@
   header h1 {
     font-size: 5vw;
     margin-top: 26.5rem;
-    margin-bottom: 0;
+    margin-bottom: 22rem;
     margin-left: 9vw;
     line-height: 1.2em;
   }
 
-  header h2 {
+  header h1 span {
     font-size: 4vw;
-    margin-left: 26vw;
-    margin-bottom: 22rem;
+    margin-left: 17vw;
     line-height: 0.6;
     letter-spacing: 0.13em;
   }
@@ -25,12 +24,12 @@
     width: 20rem;
   }
 
-  aside.button {
+  div.button {
     display: flex;
     justify-content: center;
   }
 
-  aside.button button {
+  div.button>button {
     flex-basis: 31rem;
     margin-left: 1vw;
     margin-right: 1vw;
@@ -40,24 +39,16 @@
     padding-bottom: 1rem;
   }
 
-  aside.button button>span {
-    /*width: 19rem;*/
-  }
-
-  aside.button button>svg {
+  div.button>button>svg {
     width: 5rem;
   }
 
-  aside.button>button>span>strong {
-
-  }
-
-  section {
+  section.section_athlets {
     position: relative;
     overflow: hidden;
   }
 
-  section:nth-child(1) img {
+  section.section_athlets:nth-child(1) img {
     position: absolute;
     /*left: -500px;*/
     margin-left: 15vw;
@@ -66,12 +57,12 @@
     max-width: 678px;
   }
 
-  section:nth-child(1)>h2,
-  section:nth-child(1)>div {
+  section.section_athlets:nth-child(1)>h2,
+  section.section_athlets:nth-child(1)>div {
     padding-left: 52.5vw;
   }
 
-  section>h2 {
+  section.section_athlets>h2 {
     font-size: 4vw;
     letter-spacing: 0.01em;
     padding-top: 4vw;
@@ -79,11 +70,12 @@
     margin-bottom: 2.5vw
   }
 
-  section>div {
+  section.section_athlets>div {
     padding-bottom: 1.9vw;
+    padding-top: 1.9vw;
   }
 
-  section>div p {
+  section.section_athlets>div p {
     padding-right: 7.5vw;
     font-size: 1.2vw;
     line-height: 1.2em;
@@ -91,19 +83,18 @@
     letter-spacing: 0;
   }
 
-  section>div h3 span {
+  section.section_athlets>div h3 span {
     font-size: 0.9vw;
     top: 0.1rem;
   }
 
-  section>div h3 {
+  section.section_athlets>div h3 {
     font-size: 1.8vw;
-    /*line-height: 1.7em;*/
     margin-bottom: 0.8vw;
   }
 
 
-  section:nth-child(2) img {
+  section.section_athlets:nth-child(2) img {
     position: absolute;
     margin-left: 42vw;
     top: -2rem;
@@ -111,57 +102,32 @@
     max-width: 991px;
   }
 
-  section:nth-child(2)>h2,
-  section:nth-child(2)>div {
+  section.section_athlets:nth-child(2)>h2,
+  section.section_athlets:nth-child(2)>div {
     padding-right: 37.5vw;
     padding-left: 15.5vw;
   }
 
-
-  section.section_basketball picture {
-
-  }
-
-  section>div.section_gray {
-    padding-top: 3.3rem;
-    padding-bottom: 3rem;
-  }
-
-  section>div.section_purple {
-    margin-top: 0;
-    padding-bottom: 7.5rem;
-    padding-top: 7rem;
-  }
-
-  article {
+  section.section_players {
     display: flex;
     position: relative;
   }
 
-  article:nth-child(2n) div.img {
+  section.section_players:nth-child(2n) div.img {
     order: 1;
   }
 
-  article>div.text,
-  article>div.img {
+  section.section_players>div.text,
+  section.section_players>div.img {
     flex: 1 1 50%;
     margin: 0;
   }
 
-  article>div.img img {
+  section.section_players>div.img img {
     width: 100%;
   }
 
-  section>div.section_fafafa {
-    padding-top: 0;
-    padding-bottom: 8rem;
-  }
-
-  article>div{
-    /*margin-bottom: 9rem;*/
-  }
-
-  article>aside {
+  section.section_players>div.counter {
     position: absolute;
     top: 10.5vw;
     left: calc(50vw - 4.15vw);
@@ -170,41 +136,36 @@
     padding-top: 2.75vw;
   }
 
-  article>aside>span {
+  section.section_players>div.counter>span {
     font-size: 1.25vw;
   }
 
-  article>div.text>h2 {
+  section.section_players>div.text>h2 {
     font-size: 3.9vw;
     margin-bottom: 4.5vw;
   }
 
-  article>div.text {
+  section.section_players>div.text {
     margin-left: 0;
     padding-left: 6vw;
     padding-top: 11.5vw;
     box-sizing: border-box;
   }
 
-  article:nth-child(2n)>div.text {
+  section.section_players:nth-child(2n)>div.text {
     padding-left: 9.5vw;
   }
 
-  article>div.text>p {
+  section.section_players>div.text>p {
     font-size: 1.2vw;
     letter-spacing: 0.05em;
     padding-right: 22vw;
     line-height: 1.2em;
   }
 
-  article:nth-child(2n)>div.text>p {
+  section.section_players:nth-child(2n)>div.text>p {
     padding-right: 17.5vw;
   }
-
-
-  /*article img {*/
-    /*width: 100%;*/
-  /*}*/
 
   footer {
     padding-top: 15vw;
@@ -216,7 +177,6 @@
   footer div.footer_top h2 {
     font-size: 5vw;
     margin-top: 0;
-    /*margin-top: 9rem;*/
     letter-spacing: 0.2rem;
     line-height: 1.3em
   }

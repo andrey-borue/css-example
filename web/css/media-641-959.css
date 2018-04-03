@@ -8,15 +8,14 @@
   header h1 {
     font-size: 9vw;
     margin-top: 16rem;
-    margin-bottom: 0;
+    margin-bottom: 28rem;
     margin-left: 4vw;
     line-height: 1.2em;
   }
 
-  header h2 {
+  header h1 span {
     font-size: 8.3vw;
-    margin-left: 14rem;
-    margin-bottom: 28rem;
+    margin-left: 10rem;
     line-height: 1.2;
     letter-spacing: 0.05em;
   }
@@ -25,11 +24,11 @@
     width: 20rem;
   }
 
-  aside.button {
+  div.button {
     display: flex;
   }
 
-  aside.button button {
+  div.button button {
     margin-left: 1vw;
     margin-right: 1vw;
     font-size: 1.5rem;
@@ -38,35 +37,31 @@
     padding-bottom: 2rem;
   }
 
-  aside.button button>span {
+  div.button button>span {
     width: 19rem;
   }
 
-  aside.button button>svg {
+  div.button button>svg {
     width: 4.3rem;
   }
 
-  aside.button>button>span>strong {
-
-  }
-
-  section {
+  section.section_athlets {
     position: relative;
   }
 
-  section:nth-child(1) img {
+  section.section_athlets:nth-child(1) img {
     position: absolute;
     left: -500px;
     margin-left: 42vw;
     top: 9rem;
   }
 
-  section:nth-child(1)>h2,
-  section:nth-child(1)>div {
+  section.section_athlets:nth-child(1)>h2,
+  section.section_athlets:nth-child(1)>div {
     padding-left: 37.5vw;
   }
 
-  section>h2 {
+  section.section_athlets>h2 {
     font-size: 8rem;
     letter-spacing: 0.01em;
     padding-top: 5rem;
@@ -74,62 +69,44 @@
     margin-bottom: 2rem
   }
 
-  section>div {
-    padding-bottom: 5.2rem;
+  section.section_athlets>div {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
   }
 
-  section>div p {
+  section.section_athlets>div p {
     font-size: 1.6rem;
     line-height: 1.7em;
   }
 
-  section>div h3 span {
+  section.section_athlets>div h3 span {
     font-size: 1.8rem;
   }
 
-  section>div h3 {
+  section.section_athlets>div h3 {
     font-size: 3.2rem;
     line-height: 1.7em;
     margin-bottom: 0;
   }
 
 
-  section:nth-child(2) img {
+  section.section_athlets:nth-child(2) img {
     position: absolute;
     margin-left: 44vw;
     top: 3rem;
   }
 
-  section:nth-child(2)>h2,
-  section:nth-child(2)>div {
+  section.section_athlets:nth-child(2)>h2,
+  section.section_athlets:nth-child(2)>div {
     padding-right: 37.5vw;
     padding-left: 3rem;
   }
 
-
-  section.section_basketball picture {
-
-  }
-
-  section>div.section_gray {
-    padding-top: 0;
-    padding-bottom: 1.4rem;
-  }
-
-  section>div.section_purple {
-    margin-top: 0;
-    padding-bottom: 1.5rem;
-  }
-
-  section>div.section_fafafa {
-    padding-top: 0;
-  }
-
-  article>div.text{
+  section.section_players>div.text{
     margin-bottom: 9rem;
   }
 
-  article>aside {
+  section.section_players>div.counter {
     left: 3.5rem;
     width: 11.5rem;
     height: 11.5rem;
@@ -137,25 +114,25 @@
     padding-top: 3rem;
   }
 
-  article>aside>span {
+  section.section_players>div.counter>span {
     font-size: 2.4rem;
   }
 
-  article>div.text>h2 {
+  section.section_players>div.text>h2 {
     font-size: 7.8rem;
     margin-bottom: 0.6rem;
   }
 
-  article>div.text {
+  section.section_players>div.text {
     margin-left: 3rem;
   }
 
-  article>div.text>p {
+  section.section_players>div.text>p {
     font-size: 2.6rem;
     letter-spacing: 0.04rem;
   }
 
-  article>div.img img {
+  section.section_players>div.img img {
     width: 100%;
   }
 

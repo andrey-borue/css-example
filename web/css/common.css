@@ -36,18 +36,11 @@ header {
   fill: #ffffff;
 }
 
-header h1 {
-  /*margin-top: 12rem;*/
-  /*margin-bottom: 1.4rem;*/
-  /*font-size: 3rem;*/
+header h1 span {
+  display: block;
 }
 
-header h2 {
-  margin-top: 0;
-}
-
-
-aside.button button {
+div.button button {
   margin-top: 1.5rem;
   color: #ffffff;
   text-transform: uppercase;
@@ -61,73 +54,63 @@ aside.button button {
 }
 
 
-aside.button button>svg {
+div.button>button>svg {
   margin-right: 0.7rem;
   fill: #ffffff;
 }
 
-
-aside.button button>span {
+div.button>button>span {
   white-space: nowrap;
 }
 
-
-aside.button>button>span>strong {
+div.button>button>span>strong {
   font-weight: bold;
   display: block;
 }
 
-aside.button button:hover {
+div.button>button:hover {
   cursor: pointer;
   background-color: #501be9;
   transition: none;
 }
 
-
 /** *** CONTENT *** **/
-
 main {
   overflow: hidden;
 }
 
-section>div {
+section.section_athlets>div {
   padding-left: 2rem;
   padding-bottom: 3.5rem;
 }
 
-section>div.section_white {
+section.section_athlets>div.section_white {
   background: white;
 }
 
-section>div.section_gray {
+section.section_athlets>div.section_gray {
   background: #f5f4f9;
-  padding-top: 3.5rem;
 }
 
-section>div.section_fafafa {
+section.section_athlets>div.section_light {
   background: #fafafa;
-  padding-top: 3.3rem;
 }
 
-section>div.section_purple {
+section.section_athlets>div.section_purple {
   background: #5e42b0;
-  padding-top: 3.2rem;
-  padding-bottom: 2rem;
 }
 
-section>div.section_purple_dark {
+section.section_athlets>div.section_purple_dark {
   background: #090a36;
-  padding-top: 3rem;
-  padding-bottom: 3.8rem;
   color: #ffffff;
 }
 
-section h2 {
+section.section_athlets h2 {
   color: #e7e7e7;
   text-transform: uppercase;
 }
 
-section>div h3 {
+section.section_athlets>div h3 {
   margin-top: 1.5rem;
   margin-bottom: 1.7rem;
   letter-spacing: 0.05em;
@@ -136,7 +119,7 @@ section>div h3 {
   text-transform: uppercase;
 }
 
-section>div h3 span {
+section.section_athlets>div h3 span {
   color: #000000;
   border-bottom: 4px solid #5e42b0;
   vertical-align: super;
@@ -145,31 +128,30 @@ section>div h3 span {
   margin-right: 0.5rem;
 }
 
-section>div.section_purple h3 span {
+section.section_athlets>div.section_purple h3 span {
   border-bottom-color: white;
 }
 
-section>div.section_purple_dark h3 span {
+section.section_athlets>div.section_purple_dark h3 span {
   border-bottom-color: white;
   color: #8761e0;
 }
 
-section>div p {
+section.section_athlets>div p {
   color: #000;
-  /*margin-left: 1rem;*/
   letter-spacing: 0.075rem;
   padding-right: 1.5rem;
   line-height: 1.2em;
 }
 
-section>div.section_purple_dark p {
+section.section_athlets>div.section_purple_dark p {
   color: white;
 }
 
 
 /** article **/
 
-article>aside {
+section.section_players>div.counter {
   display: block;
   position: relative;
   background: #5e3db3;
@@ -184,17 +166,17 @@ article>aside {
   margin-bottom: -6rem;
 }
 
-article>aside>span {
+section.section_players>div.counter>span {
   font-size: 1.4rem;
   border-bottom: 4px solid #8e79ca;
 }
 
-article>div.text {
+section.section_players>div.text {
   margin-left: 2rem;
   margin-bottom: 7.8rem;
 }
 
-article>div.text>h2 {
+section.section_players>div.text>h2 {
   color: #e7e7e7;
   font-size: 2.8rem;
   text-transform: uppercase;
@@ -204,7 +186,7 @@ article>div.text>h2 {
 
 }
 
-article>div.text>p {
+section.section_players>div.text>p {
   font-size: 1.6rem;
   margin-top: 0;
   letter-spacing: 0.08rem;
